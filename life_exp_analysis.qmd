@@ -19,7 +19,9 @@ library(tidyverse)
 
 
 sumdat <- gapminder::gapminder_unfiltered |>
-  group_by(country, year) |>
+  group_by(year) |>
   filter(lifeExp == max(lifeExp))
+
+sumdat
 
 ```
