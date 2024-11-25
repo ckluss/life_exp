@@ -1,0 +1,18 @@
+---
+title: "Examine Life Expectancy"
+format: html
+date: today
+editor: visual
+---
+
+https://rressler.quarto.pub/data-413-613/02_git_github_main.html
+
+```{r}
+library(tidyverse)
+```
+
+# Abstract
+
+Here, I re-examine the analysis of Oeppen and Vaupel (2002).
+
+# Analysis
